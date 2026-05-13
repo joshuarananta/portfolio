@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #061411;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.leaf-cluster {
+  transform: translateY(-50%) rotate(0deg);
+  transform-origin: bottom center;
+  transition: filter 0.3s ease;
+  filter: drop-shadow(0 18px 30px rgba(0, 0, 0, 0.25));
+}
+
+.leaf-cluster:hover {
+  animation: leafSway 2.8s ease-in-out infinite;
+  filter: drop-shadow(0 24px 36px rgba(0, 0, 0, 0.32));
+}
+
+@keyframes leafSway {
+  0% {
+    transform: translateY(-50%) rotate(0deg);
+  }
+
+  20% {
+    transform: translateY(-50%) rotate(-3deg);
+  }
+
+  40% {
+    transform: translateY(-50%) rotate(2.5deg);
+  }
+
+  60% {
+    transform: translateY(-50%) rotate(-2deg);
+  }
+
+  80% {
+    transform: translateY(-50%) rotate(1.5deg);
+  }
+
+  100% {
+    transform: translateY(-50%) rotate(0deg);
+  }
+}
