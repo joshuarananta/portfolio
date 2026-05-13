@@ -54,7 +54,7 @@ function App() {
         <img
           src={leafCluster}
           alt="Tropical leaves"
-          className="leaf-cluster hidden lg:block absolute right-[-260px] xl:right-[-500px] top-[80%] w-[900px] xl:w-[1200px] opacity-95 select-none z-0"
+          className="leaf-cluster hidden lg:block absolute right-[-260px] xl:right-[-500px] top-[80%] w-[950px] xl:w-[1250px] opacity-95 select-none z-0"
         />
 
         {/* Hero content */}
