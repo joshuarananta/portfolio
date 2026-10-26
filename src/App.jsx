@@ -66,9 +66,9 @@ function App() {
           </h1>
 
           <p className="text-xl md:text-3xl text-emerald-50/80 max-w-5xl mb-10 leading-snug">
-            Computer Science graduate passionate about software development,
-            backend systems, and building practical solutions that solve real
-            problems.
+            Computer Science graduate with hands-on experience in software
+            testing, technical troubleshooting, backend development, and
+            building practical solutions.
           </p>
 
           <div className="flex gap-5 flex-wrap">
@@ -97,10 +97,11 @@ function App() {
         <h2 className="text-4xl font-bold mb-6">About Me</h2>
 
         <p className="text-emerald-50/60 text-lg leading-8 max-w-5xl">
-          I am a Computer Science graduate based in Sydney with a strong interest
-          in software development, backend systems, and AI-assisted applications.
-          I enjoy building practical solutions, learning new technologies, and
-          working on projects that have real-world impact.
+          I am a Sydney-based Computer Science graduate with experience in
+          application testing, backend development, and helping people solve
+          technical problems. From Flutter QA at Tiny Giants to Python and AWS
+          development for Carelogix and teaching programming at Skill Samurai,
+          I enjoy making technology useful, reliable, and accessible.
         </p>
       </section>
 
@@ -158,6 +159,24 @@ function App() {
         <h2 className="text-4xl font-bold mb-10">Experience</h2>
 
         <div className="grid gap-6">
+          <article className={cardStyle}>
+            <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-3 mb-4">
+              <div>
+                <h3 className="text-2xl font-bold text-emerald-100">
+                  Junior Developer / QA — Short-Term Paid Trial
+                </h3>
+                <p className="text-emerald-300">Tiny Giants</p>
+              </div>
+              <p className="text-emerald-50/50">2026</p>
+            </div>
+            <ul className="space-y-3 text-emerald-50/60 leading-7">
+              <li>• Tested Flutter application functionality across iOS and Android.</li>
+              <li>• Ran and reviewed a suite of 477 passing Flutter tests covering login, validation, browsing, and saved-person flows.</li>
+              <li>• Investigated issues, validated application behaviour, and documented testing progress.</li>
+              <li>• Worked with Git workflows and application integrations involving Typesense and Firebase/Firestore.</li>
+            </ul>
+          </article>
+
           <article className={cardStyle}>
             <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-3 mb-4">
               <div>
@@ -235,7 +254,7 @@ function App() {
                 <p className="text-emerald-300">Hillsong Fuel Youth Ministry</p>
               </div>
 
-              <p className="text-emerald-50/50">2025 – Present</p>
+              <p className="text-emerald-50/50">2025 – October 2026</p>
             </div>
 
             <ul className="space-y-3 text-emerald-50/60 leading-7">
@@ -268,6 +287,11 @@ function App() {
             "GitHub",
             "Linux",
             "AWS Fundamentals",
+            "Flutter Testing",
+            "Quality Assurance",
+            "Firebase / Firestore",
+            "Typesense",
+            "Technical Troubleshooting",
             "Backend Development",
             "REST APIs",
             "Agile",
